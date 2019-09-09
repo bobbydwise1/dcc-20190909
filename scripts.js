@@ -5,6 +5,8 @@ Implement a file syncing algorithm for two computers over a low-bandwidth networ
 */
 
 
+
+
 $(document).ready(function() {
 
   $('#form1').submit(function(){
