@@ -18,7 +18,6 @@
     <p>This problem was asked by Google.</p>
     <p>Implement a file syncing algorithm for two computers over a low-bandwidth network. What if we know the files in the two computers are mostly the same?.</p>
     <h4><b>Answer:</b></h4>
-    <p>Type in values:</p>
     <div style='border: 2px solid black; margin: 10px; padding: 10px'>
     <p>The algorithm is as follows:</p>
     <p>1.  Get a list of the files for the source computer.  The required information are the file names and file last modified dates.</p>
@@ -32,7 +31,8 @@
     <p>A.  If a source file is a later date than a destination file, overwrite the destination file with the source's file.</p>
     <p>b.  Do vice-versa for the destination.</p>
     <p>4.  If we know the computers are mostly the same files:</p>
-    <p>A</p>
+    <p>A.  Determine which computer has more read/write activity.  This will be considered the master.  Also setup the other computer as a slave computer.</p>
+    <p>B.  When new file activity occurs in the master, send the list of changes and changed files to the slave computer.</p>
     </div>
 
     </div>
