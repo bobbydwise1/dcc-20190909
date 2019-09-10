@@ -20,15 +20,21 @@
     <h4><b>Answer:</b></h4>
     <p>Type in values:</p>
     <div style='border: 2px solid black; margin: 10px; padding: 10px'>
-      <form id='form1'>
-        <p>Enter an array: <input id='input-1' type='text' required placeholder='[1,2,3,4,5]'></p>
-        <p>Enter a value: <input id='input-2' type='text' required placeholder='10'></p>
-        <button type='submit'>Submit</button>
-      </form>
+    <p>The algorithm is as follows:</p>
+    <p>1.  Get a list of the files for the source computer.  The required information are the file names and file last modified dates.</p>
+    <p>2.  Get a list of files from the destination computer.</p>
+    <p>3.  Compare the two lists for mismatches.</p>
+    <p>A.  Source computer:</p>
+    <p>I.  New files:</p>
+    <p>A.  If a file exists on the source, but not the destination, upload the file to the destination.</p>
+    <p>B.  Do vice-versa for the destination.</p>
+    <p>II.  Files existing on both source and destination: Out of Date files:</p>
+    <p>A.  If a source file is a later date than a destination file, overwrite the destination file with the source's file.</p>
+    <p>b.  Do vice-versa for the destination.</p>
+    <p>4.  If we know the computers are mostly the same files:</p>
+    <p>A</p>
     </div>
-    <div style='border: 2px solid black; margin: 10px; padding: 10px'>
-    <p>Results: </p>
-    <p><b><span id='output-1'></span></b></p>
+
     </div>
   </div>
 </body>
